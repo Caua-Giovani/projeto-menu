@@ -13,3 +13,13 @@ btnP2.addEventListener('click', function (){
 btnP3.addEventListener('click', function (){
     window.location.href='./pages/projeto03.html'
 })
+
+
+const uva = () =>{
+    console.log('Sou uma fruta')
+
+}
+
+function uva (){
+    return 'Sou uma fruta'
+};
