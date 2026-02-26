@@ -1,0 +1,19 @@
+{
+  "name": "projeto-menu",
+  "version": "1.0.0",
+  "description": "Projeto que irá unificar todos os apps desenvolvidos em sala de aula, para facilitar a consulta do código.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "projeto",
+    "organização",
+    "atenção",
+    "comentários",
+    "boas práticas"
+  ],
+  "author": "Cauã Giovani",
+  "license": "ISC",
+  "git repository":""
+}
