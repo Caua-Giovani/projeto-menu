@@ -1,4 +1,4 @@
-:root {
+:root{
     --primary-color: #6366f1;
     --primary-hover: #4f46e5;
     --bg-color: #f8fafc;
@@ -7,13 +7,13 @@
     --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px;
     --radius: 8px;
     --font-main: "Montserrat", sans-serif;
-};
+}
   
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-};
+}
 
 body{
     font-family: var(--font-main);
@@ -25,15 +25,15 @@ body{
     justify-content: center;
     min-height: 100vh;
     text-align: center;
-};
+}
 
 .project__header h1{
     font-size: 2.5rem;
     margin-bottom: 2rem;
     color: var(--primary-color);
-};
+}
 
-.project__buton-group input[type="button"],
+.project__button-group input[type="button"],
 button{
     background-color: var(--primary-color);
     color: var(--white);
@@ -46,11 +46,11 @@ button{
     cursor: pointer;
     box-shadow: var(--shadow);
     transition: all 0.3s ease;
-};
+}
 
-.project__buton-group input[type="button"]:hover,
+.project__button-group input[type="button"]:hover,
 button:hover{
     background-color: var(--primary-hover);
     transform: translateY(-2px);
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0 / 0.1)
-};
+}

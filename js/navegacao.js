@@ -4,15 +4,19 @@ function criarBotaoVoltar(){
     btnVoltar.innerText='Voltar';
     btnVoltar.style.marginTop='20px';
 
-    btnVoltar.addEventListener('click',function(){
-        window.location.href='../index.html'
-    });
+    // btnVoltar.addEventListener('click',function(){
+    //     window.location.href='../index.html'
+    // });
+
+    
+    function navegar(){
+        window.location.href = '../index.html'
+    };
+
+    btnVoltar.addEventListener('click',navegar)
 
     document.body.appendChild(btnVoltar);
-
 };
-
-const criarBtnVoltar = () =>{};
 
 window.onload = criarBotaoVoltar();
 
