@@ -4,22 +4,12 @@ const btnP3 = document.querySelector('#inputP3');
 
 btnP1.addEventListener('click', function (){
     window.location.href='./pages/projeto01.html'
-})
+});
 
 btnP2.addEventListener('click', function (){
     window.location.href='./pages/projeto02.html'
-})
+});
 
 btnP3.addEventListener('click', function (){
     window.location.href='./pages/projeto03.html'
-})
-
-
-const uva = () =>{
-    console.log('Sou uma fruta')
-
-}
-
-function uva (){
-    return 'Sou uma fruta'
-};
+});
