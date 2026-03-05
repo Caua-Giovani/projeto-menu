@@ -54,3 +54,13 @@ button:hover{
     transform: translateY(-2px);
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0 / 0.1)
 }
+
+.btn-navegacao{
+    background-color: yellow;
+    color: black;
+    transition: 0.3s;
+}
+
+.btn-navegacao:hover{
+    background-color: rgb(228, 228, 7);
+}
