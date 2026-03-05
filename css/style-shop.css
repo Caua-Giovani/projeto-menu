@@ -156,7 +156,7 @@
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 25%);
     transition: all 0.3s ease;
     position: absolute;
-    bottom: 3%;
+    bottom: 0.1%;
     left: 47%;
 }
 
