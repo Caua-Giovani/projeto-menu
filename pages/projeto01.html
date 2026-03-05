@@ -1,21 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto 01</title>
-
-    <!-- fonte -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <!-- css -->
-    <link rel="stylesheet" href="../css/global.css">
-    
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="../css/style-calc-imc.css">
 </head>
+
 <body>
-    <h1>Projeto 01</h1>
-    <script src="../js/global-auto.js"></script>
+    <!-- Conteúdo principal -->
+    <main class="calculator">
+        <!-- seção do formulário -->
+        <header class="calculator__header">
+            <h1 class="calculator__header">Calculadora de IMC</h1>
+        </header>
+
+        <section class="calculator__form-section" id="reusltSection">
+            <form class="calculator__form" id="imcForm">
+
+                    <div class="calculator__form-container">
+                        <div class="calculator__form-group">
+                            <label for="weight" class="calculator_label">Peso(kg):</label>
+                            <input type="number" id="weight" class="calculator__input" placeholder="Ex.: 70"
+                                required>
+                        </div>
+                        <div class="calculator__form-group">
+                            <label for="height" class="calculator_label">Altura(m):</label>
+                            <input type="number" id="height" class="calculator__input" placeholder="Ex.: 1.75" step="0.01"
+                                required>
+                        </div>
+                    </div>
+
+                <div class="calculator__buttons">
+                    <button type="button" class="calculator__button calculator__button--calculate" onclick="calcularIMC()">Calcular
+                    </button>
+
+                    <button type="button" class="calculator__button calculator__button--clear" onclick="limparCampos()">Limpar
+                    </button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Mensagem para o usuário -->
+        <section class="calculator__result-section" id="resultSection">
+            <h2 class="calculator__result-title">Resultado:</h2>
+            <p class="calculator_result-text" id="resultText">Preencha os campos e clique em "Calcular".</p>
+        </section>
+
+        <script src="../js/calculo-imc-v3.js"></script>
+        <script src="../js/global-auto.js"></script>
+    </main>
+
+
 </body>
+
 </html>

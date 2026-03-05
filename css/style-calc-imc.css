@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calculator{
+    background-color: #FFD6A5;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: sans-serif;
+    color: #D1495B;
+}
+
+.calculator__form-section{
+    background-color: #FDC684;
+    padding: 50px 80px;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 25%);
+}
+
+.calculator__result-section{
+    background-color: #FDC684;
+    padding: 50px 80px;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 25%);
+}
+
+.calculator__form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 28px;
+}
+
+.calculator__input{
+    background-color: #FFE8CC;
+    border: solid 1px #F77F00;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.calculator__form{
+    display: flex;
+    gap: 20px;
+}
+
+.calculator__buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.calculator__button{
+    border-radius:10px ;
+    border: transparent;
+    padding: 10px;
+}
+
+.calculator__header{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.calculator__button--calculate{
+    background-color: #FFB703;
+    padding: 20px 50px;
+    font-size: 20px;
+    color: white;
+    transition: 0.3s;
+}
+
+.calculator__button--calculate:hover{
+    background-color: #F77F00;
+}
+
+.calculator__button--clear{
+    background-color: #D62828;
+    padding: 20px 50px;
+    font-size: 20px;
+    color: white;
+    transition: 0.3s;
+}
+
+.calculator__button--clear:hover{
+    background-color: #9D0208;
+}
+
+.calculator__result-section{
+    color: #2D6A4F;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-navegacao{
+    background-color: #F77F00 ;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 25%);
+    transition: all 0.3s ease;
+    position: absolute;
+    bottom: 15%;
+    left: 47%;
+}
+
+.btn-navegacao:hover{
+    background-color: #df7403 ;
+}

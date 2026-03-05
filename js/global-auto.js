@@ -12,7 +12,7 @@ const criarBotaoVoltar = () => {
 
     document.body.appendChild(btnVoltar);
 };
-1
+
 
 
 // 1. Lógica Automática para o Menu (Index)
