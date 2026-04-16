@@ -36,5 +36,5 @@ if (btnP1){
         window.location.href='./pages/projeto04.html'}
     );
 } else {
-    window.onload = criarBotaoVoltar();
+    (window.onload = criarBotaoVoltar);
 }
