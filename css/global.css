@@ -7,6 +7,12 @@
     --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px;
     --radius: 8px;
     --font-main: "Montserrat", sans-serif;
+
+
+    --primary-color-dark: #5fd2ff;
+    --primary-hover-dark: #a0e4ff;
+    --bg-color-dark:#000;
+    --text-color-dark:#000;
 }
   
 *{
@@ -27,14 +33,33 @@ body{
     text-align: center;
 }
 
+.dark{
+    background-color: var(--bg-color-dark);
+}
+
 .project__header h1{
     font-size: 2.5rem;
     margin-bottom: 2rem;
     color: var(--primary-color);
 }
 
-.project__button-group input[type="button"],
-button{
+
+.dark .project__header h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: var(--primary-color-dark);
+}
+
+.dark .button{
+    background-color: var(--primary-color-dark);
+    color: var(--text-color-dark);
+}
+
+.dark .button:hover{
+    background-color: var(--primary-hover-dark);
+}
+
+.button{
     background-color: var(--primary-color);
     color: var(--white);
     border: none;
@@ -48,12 +73,12 @@ button{
     transition: all 0.3s ease;
 }
 
-.project__button-group input[type="button"]:hover,
-button:hover{
+.button:hover{
     background-color: var(--primary-hover);
     transform: translateY(-2px);
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0 / 0.1)
 }
+
 
 .btn-navegacao{
     background-color: yellow;
@@ -63,4 +88,11 @@ button:hover{
 
 .btn-navegacao:hover{
     background-color: rgb(228, 228, 7);
+}
+
+.themeToggle{
+    position: absolute;
+    left: auto;
+    right:auto;
+    top: 60%;
 }

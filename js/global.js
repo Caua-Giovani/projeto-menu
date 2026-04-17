@@ -38,3 +38,6 @@ if (btnP1){
 } else {
     (window.onload = criarBotaoVoltar);
 }
+
+
+
